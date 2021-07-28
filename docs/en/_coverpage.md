@@ -4,10 +4,8 @@
 
 ## `INNOVATION CREATES CURIOSITY`<br>`CURIOSITY INNOVATION`
 
-- <i class="fas fa-feather-alt"></i> Blog Posts
-- <i class="fab fa-github"></i> GitHub Projects
-- <i class="fas fa-podcast"></i> Podcast Posts
-- <i class="fab fa-youtube"></i> Youtube Videos
+- <i class="fas fa-feather-alt"></i> Blog Posts&nbsp;&nbsp;&nbsp;<i class="fab fa-github"></i> GitHub Projects
+- <i class="fas fa-podcast"></i> Podcast Posts&nbsp;&nbsp;&nbsp;<i class="fab fa-youtube"></i> Youtube Videos
 
 [GitHub](https://github.com/sven-seyfert/solve-smart/)
 [Getting started](/en/README)

@@ -4,10 +4,8 @@
 
 ## `INNOVATION SCHAFFT NEUGIER`<br>`NEUGIER INNOVATION`
 
-- <i class="fas fa-feather-alt"></i> Blog Beiträge
-- <i class="fab fa-github"></i> GitHub Projekte
-- <i class="fas fa-podcast"></i> Podcast Beiträge
-- <i class="fab fa-youtube"></i> Youtube Videos
+* <i class="fas fa-feather-alt"></i> Blog Beiträge&nbsp;&nbsp;&nbsp;<i class="fab fa-github"></i> GitHub Projekte
+* <i class="fas fa-podcast"></i> Podcast Beiträge&nbsp;&nbsp;&nbsp;<i class="fab fa-youtube"></i> Youtube Videos
 
 [GitHub](https://github.com/sven-seyfert/solve-smart/)
 [Los geht's](/de/README)
