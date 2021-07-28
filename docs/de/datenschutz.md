@@ -117,7 +117,7 @@ Zeisigweg 9<br>
 04523 Pegau<br>
 
 Telefon: +49 (0) 34296 486728<br>
-E-Mail: info@sven-seyfert.de
+E-Mail: info@sven-seyfert.de order info@solve-smart.de
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
 die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)

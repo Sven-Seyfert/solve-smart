@@ -23,7 +23,7 @@ Zeisigweg 9<br>
 ## Kontakt
 
 Telefon: +49 (0) 34296 486728<br>
-E-Mail: info@sven-seyfert.de
+E-Mail: info@sven-seyfert.de order info@solve-smart.de
 
 ## Datenschutz
 
