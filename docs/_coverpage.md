@@ -10,4 +10,4 @@
 - <i class="fab fa-youtube"></i> Youtube Videos
 
 [GitHub](https://github.com/sven-seyfert/solve-smart/)
-[Los geht's](/de/introduction)
+[Los geht's](/de/README)

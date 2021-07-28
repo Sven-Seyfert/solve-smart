@@ -6,11 +6,11 @@
     <meta name="description" content="Description" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
     <title>SOLVE SMART</title>
-    <link rel="shortcut icon" href="_media/logo.ico">
-    <link rel="icon" type="image/png" href="_media/logo.ico" sizes="32x32">
-    <link rel="icon" type="image/png" href="_media/logo.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="_media/logo.png" sizes="96x96">
-    <link rel="apple-touch-icon" sizes="180x180" href="_media/apple-touch-icon.png">
+    <link rel="shortcut icon" href="_media/logo.ico" />
+    <link rel="icon" type="image/png" href="_media/logo.ico" sizes="32x32" />
+    <link rel="icon" type="image/png" href="_media/logo.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="_media/logo.png" sizes="96x96" />
+    <link rel="apple-touch-icon" sizes="180x180" href="_media/apple-touch-icon.png" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
     <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
     <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
@@ -21,8 +21,8 @@
     <div id="app"></div>
     <script>
       window.$docsify = {
+        // ==> docsify settings start
         auto2top: false,
-        // basePath: "/solve-smart/",
         copyCode: {
           buttonText: "<i class='far fa-copy'></i>",
           errorText: "Error",
@@ -30,10 +30,8 @@
         },
         coverpage: ["/", "/en/"],
         executeScript: true,
-        fallbackLanguages: ['en', 'de'],
         formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm} ",
-        // formatUpdated: "{YYYY}-{MM}-{DD}",
-        homepage: "/#/introduction.md",
+        homepage: "introduction.md",
         loadNavbar: true,
         loadSidebar: true,
         mergeNavbar: false,
@@ -42,12 +40,12 @@
         repo: "https://github.com/sven-seyfert/solve-smart/",
         subMaxLevel: 2,
         themeColor: "#574897",
-        // topMargin: 90,
+        // <== docsify settings end
         // ==> search plugin start
         search: ["/en/"],
         search: {
-          maxAge: 86400000, // Expiration time, the default one day
-          paths: "auto", // paths: [], // or 'auto'
+          maxAge: 86400000,
+          paths: "auto",
           placeholder: {
             "/en/": "Search",
             "/": "Suche",
@@ -56,19 +54,19 @@
             "/en/": "No Results",
             "/": "Keine Ergebnisse",
           },
-          depth: 4, // Headline depth, 1 - 6
+          depth: 4,
           hideOtherSidebarContent: false,
           namespace: "solve-smart.de",
           pathNamespaces: ["/en", "/de", "/"],
           pathNamespaces: /^(\/(en|de))?(\/(v1|v2))?/,
         },
         // <== search plugin end
+        // ==> hooks start
         plugins: [
           function (hook, vm) {
             hook.beforeEach(function (html) {
               return (
-                html +
-                '<p align="right"><small><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;{docsify-updated}</small></p>'
+                html + '<p align="right"><small><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;{docsify-updated}</small></p>'
               );
             });
           },
@@ -77,18 +75,18 @@
               "<hr/>",
               "<footer>",
               "<small>",
-                '<span>Copyright &copy; 2021 SOLVE SMART</a> - Alle Rechte vorbehalten.</span>&nbsp;',
-                '<span><i class="fas fa-university"></i> Rechtliches: <a href="/#/de/impressum">Impressum</a>, <a href="/#/de/datenschutz">Datenschutz</a>.</span>&nbsp;',
-                '<span><i class="fas fa-cubes"></i> Erstellt durch <a href="https://sven-seyfert.de" target="_blank">Sven Seyfert</a>, veröffentlich mit <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+                "<span>Copyright &copy; 2021 SOLVE SMART</a> - Alle Rechte vorbehalten.</span>&nbsp;",
+                "<span><i class=\"fas fa-university\"></i> Rechtliches: <a href=\"/#/de/impressum\">Impressum</a>, <a href=\"/#/de/datenschutz\">Datenschutz</a>.</span>&nbsp;",
+                "<span><i class=\"fas fa-cubes\"></i> Erstellt durch <a href=\"https://sven-seyfert.de\" target=\"_blank\">Sven Seyfert</a>, veröffentlich mit <a href=\"https://github.com/docsifyjs/docsify\" target=\"_blank\">docsify</a>.</span>",
               "</small>",
               "</footer>",
             ].join("");
-
             hook.afterEach(function (html) {
               return html + footer;
             });
-          }
+          },
         ],
+        // <== hooks end
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -98,41 +96,6 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
-    <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script> -->
     <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-    <script type="text/javascript">
-      var _iub = _iub || [];
-      _iub.csConfiguration = {
-        "countryDetection": true,
-        "consentOnContinuedBrowsing": false,
-        "whitelabel": false,
-        "lang": "de",
-        "siteId": 2309871,
-        "cookiePolicyId": 73684129,
-        //"cookiePolicyUrl": "https://solve-smart.de/#/de/datenschutz",
-        "banner": {
-          "rejectButtonDisplay": true,
-          "rejectButtonColor": "rgba(87, 72, 151, 0.6313725490196078)",
-          "rejectButtonCaptionColor": "white",
-          "position": "float-bottom-right",
-          "textColor": "white",
-          "backgroundColor": "#000001",
-          "acceptButtonDisplay": true,
-          "acceptButtonColor": "#574897",
-          "acceptButtonCaptionColor": "white",
-          "customizeButtonDisplay": true,
-          "customizeButtonColor": "rgba(87, 72, 151, 0.6313725490196078)",
-          "customizeButtonCaptionColor": "white",
-          "cookiePolicyLinkCaption": "Datenschutz",
-          "content": "<div id=\"iubenda-cs-title\">Hinweis</div><div id=\"iubenda-cs-paragraph\"><p class=\"iub-p\">Auf der Webseite kommen verschiedene Cookies zum Einsatz: technisch notwendige sowie optionale Cookies welche bspw. für Social-Media-Plattformen wie \"Twitter\" oder \"Youtube\", Schriftarten wie \"Font Awesome\" oder Online-Karten wie \"OpenStreetMap\" benötigt werden. Es ist möglich die Webseite grundsätzlich auch ohne das Setzen von Cookies zu besuchen. Hiervon ausgenommen sind die technisch notwendigen Cookies. Mit dem Klick auf den Button \"Alle akzeptieren\" erklären Sie sich mit der Verwendung von Cookies einverstanden. Um Ihre Einwilligung zur Cookie-Nutzung jederzeit in der Datenschutzerklärung zu widerrufen, klicken Sie bitte auf \"Mehr über die Verwendung von Cookies\". Weitere Informationen finden Sie in der <a href=\"https://solve-smart.de/#/de/datenschutz\">Datenschutzerklärung</a> sowie unter Cookies.</p><br /><p class=\"iub-p\"></p></div>",
-          "acceptButtonCaption": "Alle akzeptieren",
-          "customizeButtonCaption": "Mehr über die Verwendung von Cookies"
-        }
-      };
-    </script>
-    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
   </body>
 </html>
-
-<!-- https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free -->
-<!-- https://www.iubenda.com/de/flow/2309871 -->
