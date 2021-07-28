@@ -47,8 +47,8 @@ function getAdder(int $x): int
   - [ ] bim
   - [ ] lim
 
-<script>
-    // alert('test');
-</script>
+<!-- <script>
+    alert('test');
+</script> -->
 
 <small>{docsify-updated}</small>

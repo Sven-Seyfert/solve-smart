@@ -8,4 +8,4 @@
 - <i class="fas fa-podcast"></i> Podcast Posts&nbsp;&nbsp;&nbsp;<i class="fab fa-youtube"></i> Youtube Videos
 
 [GitHub](https://github.com/sven-seyfert/solve-smart/)
-[Getting started](/en/README)
+[Start](/en/README)
