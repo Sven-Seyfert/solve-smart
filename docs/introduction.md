@@ -18,7 +18,7 @@ Bleib innovativ und viel Spaß.
 > Hello and welcome to SOLVE SMART【ツ】.
 
 Simply navigate through the topics on the left side or open the menu, if you use a mobile device.<br>
-You can also use the search to find interesting post for you.
+You can also use the search to find interesting posts for you.
 
 Stay innovative and have fun.
 
